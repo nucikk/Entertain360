@@ -1,0 +1,14 @@
+.container {
+ max-width: 900px;
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ background-color:darkslategray;
+}
+
+.row_1, .row_2 , .row_3 {
+ width: 250px;
+ height: 300px;
+ overflow: hidden;
+ background-color: chartreuse;
+}
