@@ -1,5 +1,5 @@
 import React from 'react'
-
+import logoEntertain from "../Image/entertainlogo.png"
 const Navbar = () => {
  const menuItems = [
   { title: "მთავარი", link: "/" },
@@ -10,7 +10,10 @@ const Navbar = () => {
  ]
  return (
   <>
-   <nav>
+ 
+
+   <nav>  
+    <img src={logoEntertain} alt="" />
     <ul>
      {menuItems.map((menuItem, index) => (
       <li key={index}>

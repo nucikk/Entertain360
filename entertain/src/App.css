@@ -1,14 +1,16 @@
-.container {
- max-width: 900px;
+nav {
+ height: 75px;
+ border-bottom: 1px solid black;
  display: flex;
- justify-content: space-between;
- flex-wrap: wrap;
- background-color:darkslategray;
+ align-items: center;
+ justify-content: center;
 }
 
-.row_1, .row_2 , .row_3 {
- width: 250px;
- height: 300px;
- overflow: hidden;
- background-color: chartreuse;
+ul {
+ display: flex;
+ list-style: none;
+}
+
+li {
+ margin: 0px 20px;
 }
