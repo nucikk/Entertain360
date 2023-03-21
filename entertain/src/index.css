@@ -79,6 +79,7 @@ input:focus {
 input {
   box-sizing: border-box;
   border: none;
+  border-style: none;
   cursor: pointer;
 }
 
