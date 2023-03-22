@@ -1,0 +1,18 @@
+.registration_container {
+ width: 100%;
+ display: flex;
+ position: relative;
+ background-color: rgb(237, 241, 12);
+
+}
+
+.register_left_container { 
+ width: 1000px;
+ height: 885px;
+ background-color: rgb(184, 11, 126);
+}
+.register_right_container {
+width: 100%;
+padding: 40px 100px;
+background-color: aquamarine;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import "../Style/Navbar.css"
 import logoEntertain from "../Image/entertainlogo.png"
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
  const navLinks = [
@@ -23,7 +24,10 @@ const Navbar = () => {
       </li>
      ))}
     </ul>
-    <button className="navigation_login">შესვლა</button>
+    <Link to="/registration">
+        <button className="navigation_login">შესვლა</button>
+    </Link>
+
    </nav>
   </>
  )
